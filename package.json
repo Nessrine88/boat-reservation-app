@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "eslint": "eslint \"**/*.{js,jsx}\" --fix",
-    "stylelint": "stylelint \"**/*.{css,scss}\" --fix",
+    "eslint": "npx eslint \"**/*.{js,jsx}\" --fix",
+    "stylelint": "npx stylelint \"**/*.{css,scss}\" --fix",
     "preview": "vite preview"
   },
   "dependencies": {
